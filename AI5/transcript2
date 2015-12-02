@@ -1,0 +1,101 @@
+painter
+sander
+gluer
+joiner
+ Model: 
+{'a': None, 'sander': None, 'c': None, 'b': None, 'e': None, 'd': None, 'g': None, 'f': None, 'h': None, 'gluer': None, 'painter': None, 'welder': None, 'stapler': None, 'joiner': None, 'recharger': None, 'cutter': None}
+Setting Pure Symbol:  recharger: False
+ Model: 
+{'a': None, 'sander': None, 'c': None, 'b': None, 'e': None, 'd': None, 'g': None, 'f': None, 'h': None, 'gluer': None, 'painter': None, 'welder': None, 'stapler': None, 'joiner': None, 'recharger': False, 'cutter': None}
+Setting Pure Symbol:  welder: False
+ Model: 
+{'a': None, 'sander': None, 'c': None, 'b': None, 'e': None, 'd': None, 'g': None, 'f': None, 'h': None, 'gluer': None, 'painter': None, 'welder': False, 'stapler': None, 'joiner': None, 'recharger': False, 'cutter': None}
+Setting Pure Symbol:  stapler: False
+ Model: 
+{'a': None, 'sander': None, 'c': None, 'b': None, 'e': None, 'd': None, 'g': None, 'f': None, 'h': None, 'gluer': None, 'painter': None, 'welder': False, 'stapler': False, 'joiner': None, 'recharger': False, 'cutter': None}
+Setting Pure Symbol:  cutter: False
+ Model: 
+{'a': None, 'sander': None, 'c': None, 'b': None, 'e': None, 'd': None, 'g': None, 'f': None, 'h': None, 'gluer': None, 'painter': None, 'welder': False, 'stapler': False, 'joiner': None, 'recharger': False, 'cutter': False}
+Unit clause heuristic
+Setting symbol from unit clause heuristic:  painter: True
+ Model: 
+{'a': None, 'sander': None, 'c': None, 'b': None, 'e': None, 'd': None, 'g': None, 'f': None, 'h': None, 'gluer': None, 'painter': True, 'welder': False, 'stapler': False, 'joiner': None, 'recharger': False, 'cutter': False}
+Unit clause heuristic
+Setting symbol from unit clause heuristic:  sander: True
+ Model: 
+{'a': None, 'sander': True, 'c': None, 'b': None, 'e': None, 'd': None, 'g': None, 'f': None, 'h': None, 'gluer': None, 'painter': True, 'welder': False, 'stapler': False, 'joiner': None, 'recharger': False, 'cutter': False}
+Unit clause heuristic
+Setting symbol from unit clause heuristic:  gluer: True
+ Model: 
+{'a': None, 'sander': True, 'c': None, 'b': None, 'e': None, 'd': None, 'g': None, 'f': None, 'h': None, 'gluer': True, 'painter': True, 'welder': False, 'stapler': False, 'joiner': None, 'recharger': False, 'cutter': False}
+Unit clause heuristic
+Setting symbol from unit clause heuristic:  joiner: True
+ Model: 
+{'a': None, 'sander': True, 'c': None, 'b': None, 'e': None, 'd': None, 'g': None, 'f': None, 'h': None, 'gluer': True, 'painter': True, 'welder': False, 'stapler': False, 'joiner': True, 'recharger': False, 'cutter': False}
+Unit clause heuristic
+Setting symbol from unit clause heuristic:  f: True
+ Model: 
+{'a': None, 'sander': True, 'c': None, 'b': None, 'e': None, 'd': None, 'g': None, 'f': True, 'h': None, 'gluer': True, 'painter': True, 'welder': False, 'stapler': False, 'joiner': True, 'recharger': False, 'cutter': False}
+setting a : True
+ Model: 
+{'a': True, 'sander': True, 'c': None, 'b': None, 'e': None, 'd': None, 'g': None, 'f': True, 'h': None, 'gluer': True, 'painter': True, 'welder': False, 'stapler': False, 'joiner': True, 'recharger': False, 'cutter': False}
+Setting Pure Symbol:  c: False
+ Model: 
+{'a': True, 'sander': True, 'c': False, 'b': None, 'e': None, 'd': None, 'g': None, 'f': True, 'h': None, 'gluer': True, 'painter': True, 'welder': False, 'stapler': False, 'joiner': True, 'recharger': False, 'cutter': False}
+Setting Pure Symbol:  e: False
+ Model: 
+{'a': True, 'sander': True, 'c': False, 'b': None, 'e': False, 'd': None, 'g': None, 'f': True, 'h': None, 'gluer': True, 'painter': True, 'welder': False, 'stapler': False, 'joiner': True, 'recharger': False, 'cutter': False}
+setting h : True
+ Model: 
+{'a': True, 'sander': True, 'c': False, 'b': None, 'e': False, 'd': None, 'g': None, 'f': True, 'h': True, 'gluer': True, 'painter': True, 'welder': False, 'stapler': False, 'joiner': True, 'recharger': False, 'cutter': False}
+Setting Pure Symbol:  g: False
+ Model: 
+{'a': True, 'sander': True, 'c': False, 'b': None, 'e': False, 'd': None, 'g': False, 'f': True, 'h': True, 'gluer': True, 'painter': True, 'welder': False, 'stapler': False, 'joiner': True, 'recharger': False, 'cutter': False}
+Unit clause heuristic
+Setting symbol from unit clause heuristic:  b: False
+ Model: 
+{'a': True, 'sander': True, 'c': False, 'b': False, 'e': False, 'd': None, 'g': False, 'f': True, 'h': True, 'gluer': True, 'painter': True, 'welder': False, 'stapler': False, 'joiner': True, 'recharger': False, 'cutter': False}
+Unit clause heuristic
+Setting symbol from unit clause heuristic:  d: False
+ Model: 
+{'a': True, 'sander': True, 'c': False, 'b': False, 'e': False, 'd': False, 'g': False, 'f': True, 'h': True, 'gluer': True, 'painter': True, 'welder': False, 'stapler': False, 'joiner': True, 'recharger': False, 'cutter': False}
+setting h : False
+ Model: 
+{'a': True, 'sander': True, 'c': False, 'b': None, 'e': False, 'd': None, 'g': False, 'f': True, 'h': False, 'gluer': True, 'painter': True, 'welder': False, 'stapler': False, 'joiner': True, 'recharger': False, 'cutter': False}
+Backtrack
+setting a : False
+ Model: 
+{'a': False, 'sander': True, 'c': False, 'b': None, 'e': None, 'd': None, 'g': None, 'f': True, 'h': None, 'gluer': True, 'painter': True, 'welder': False, 'stapler': False, 'joiner': True, 'recharger': False, 'cutter': False}
+setting b : True
+ Model: 
+{'a': False, 'sander': True, 'c': False, 'b': True, 'e': None, 'd': None, 'g': None, 'f': True, 'h': None, 'gluer': True, 'painter': True, 'welder': False, 'stapler': False, 'joiner': True, 'recharger': False, 'cutter': False}
+Setting Pure Symbol:  d: False
+ Model: 
+{'a': False, 'sander': True, 'c': False, 'b': True, 'e': None, 'd': False, 'g': None, 'f': True, 'h': None, 'gluer': True, 'painter': True, 'welder': False, 'stapler': False, 'joiner': True, 'recharger': False, 'cutter': False}
+setting h : True
+ Model: 
+{'a': False, 'sander': True, 'c': False, 'b': True, 'e': None, 'd': False, 'g': None, 'f': True, 'h': True, 'gluer': True, 'painter': True, 'welder': False, 'stapler': False, 'joiner': True, 'recharger': False, 'cutter': False}
+Unit clause heuristic
+Setting symbol from unit clause heuristic:  e: False
+ Model: 
+{'a': False, 'sander': True, 'c': False, 'b': True, 'e': False, 'd': False, 'g': None, 'f': True, 'h': True, 'gluer': True, 'painter': True, 'welder': False, 'stapler': False, 'joiner': True, 'recharger': False, 'cutter': False}
+Unit clause heuristic
+Setting symbol from unit clause heuristic:  g: False
+ Model: 
+{'a': False, 'sander': True, 'c': False, 'b': True, 'e': False, 'd': False, 'g': False, 'f': True, 'h': True, 'gluer': True, 'painter': True, 'welder': False, 'stapler': False, 'joiner': True, 'recharger': False, 'cutter': False}
+setting h : False
+ Model: 
+{'a': False, 'sander': True, 'c': False, 'b': True, 'e': False, 'd': False, 'g': None, 'f': True, 'h': False, 'gluer': True, 'painter': True, 'welder': False, 'stapler': False, 'joiner': True, 'recharger': False, 'cutter': False}
+Setting Pure Symbol:  g: True
+ Model: 
+{'a': False, 'sander': True, 'c': False, 'b': True, 'e': False, 'd': False, 'g': True, 'f': True, 'h': False, 'gluer': True, 'painter': True, 'welder': False, 'stapler': False, 'joiner': True, 'recharger': False, 'cutter': False}
+1
+----------------- Assignenments--------------------- 
+sander: True
+b: True
+g: True
+f: True
+gluer: True
+painter: True
+joiner: True
+count: 26

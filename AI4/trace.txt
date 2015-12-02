@@ -1,0 +1,115 @@
+[{'O1Y': '+'}, {'O2W': '+'}, {'O3Y': '+'}, {'L1W': '+'}, {'L2Y': '+'}, {'L3B': '+'}, {'C2B': '+', 'O2W': '-', 'C2W': '+'}, {'O3Y': '-', 'C3Y': '+', 'C3B': '+'}, {'C1B': '+', 'C1Y': '+', 'O1Y': '-'}, {'L1W': '-', 'C1W': '-'}, {'L2Y': '-', 'C2Y': '-'}, {'L3B': '-', 'C3B': '-'}, {'C1B': '+', 'C1Y': '+', 'C1W': '+'}, {'C2B': '+', 'C2Y': '+', 'C2W': '+'}, {'C3W': '+', 'C3Y': '+', 'C3B': '+'}, {'C1Y': '-', 'C2Y': '-'}, {'C1Y': '-', 'C3Y': '-'}, {'C1W': '-', 'C2W': '-'}, {'C3W': '-', 'C1W': '-'}, {'C2B': '-', 'C1B': '-'}, {'C1B': '-', 'C3B': '-'}, {'C2W': '-'}]
+initial clauses:
+0:  O1Y
+1:  O2W
+2:  O3Y
+3:  L1W
+4:  L2Y
+5:  L3B
+6:  C2B -O2W C2W
+7:  -O3Y C3Y C3B
+8:  C1B C1Y -O1Y
+9:  -L1W -C1W
+10:  -L2Y -C2Y
+11:  -L3B -C3B
+12:  C1B C1Y C1W
+13:  C2B C2Y C2W
+14:  C3W C3Y C3B
+15:  -C1Y -C2Y
+16:  -C1Y -C3Y
+17:  -C1W -C2W
+18:  -C3W -C1W
+19:  -C2B -C1B
+20:  -C1B -C3B
+21:  -C2W
+--------------------
+1
+---------------------------------
+ Queue size: 31
+Clause selected :  L1W ,  -L1W -C1W
+ New clause added after resolution :  -C1W
+2
+---------------------------------
+ Queue size: 31
+Clause selected :  L2Y ,  -L2Y -C2Y
+ New clause added after resolution :  -C2Y
+3
+---------------------------------
+ Queue size: 31
+Clause selected :  L3B ,  -L3B -C3B
+ New clause added after resolution :  -C3B
+4
+---------------------------------
+ Queue size: 32
+Clause selected :  O1Y ,  C1B C1Y -O1Y
+ New clause added after resolution :  C1B C1Y
+5
+---------------------------------
+ Queue size: 35
+Clause selected :  O2W ,  C2B -O2W C2W
+ New clause added after resolution :  C2B C2W
+6
+---------------------------------
+ Queue size: 37
+Clause selected :  -C2W ,  C2B C2W
+ New clause added after resolution :  C2B
+7
+---------------------------------
+ Queue size: 37
+Clause selected :  -C2B -C1B ,  C2B
+ New clause added after resolution :  -C1B
+8
+---------------------------------
+ Queue size: 39
+Clause selected :  C1B C1Y ,  -C1B
+ New clause added after resolution :  C1Y
+9
+---------------------------------
+ Queue size: 40
+Clause selected :  -C1Y -C2Y ,  C1Y
+10
+---------------------------------
+ Queue size: 39
+Clause selected :  -C1Y -C3Y ,  C1Y
+ New clause added after resolution :  -C3Y
+11
+---------------------------------
+ Queue size: 40
+Clause selected :  O3Y ,  -O3Y C3Y C3B
+ New clause added after resolution :  C3Y C3B
+12
+---------------------------------
+ Queue size: 44
+Clause selected :  -C3B ,  C3Y C3B
+ New clause added after resolution :  C3Y
+13
+---------------------------------
+ Queue size: 45
+Clause selected :  -C3Y ,  C3Y
+ Iterations count :13
+33: ()
+Empty Clause 
+ Successful 
+------------------
+trace:
+ 33: () [30,32]
+ 30:  -C3Y [16,29]
+16:  -C1Y -C3Y input
+ 29:  C1Y [25,28]
+ 25:  C1B C1Y [0,8]
+0:  O1Y input
+8:  C1B C1Y -O1Y input
+ 28:  -C1B [19,27]
+19:  -C2B -C1B input
+ 27:  C2B [21,26]
+21:  -C2W input
+ 26:  C2B C2W [1,6]
+1:  O2W input
+6:  C2B -O2W C2W input
+ 32:  C3Y [24,31]
+ 24:  -C3B [5,11]
+5:  L3B input
+11:  -L3B -C3B input
+ 31:  C3Y C3B [2,7]
+2:  O3Y input
+7:  -O3Y C3Y C3B input

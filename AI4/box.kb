@@ -1,0 +1,28 @@
+# Facts
+O1Y
+O2W
+O3Y
+#Labels
+L1W
+L2Y
+L3B
+# Observed 
+-O2W C2W C2B
+-O3Y C3Y C3B
+-O1Y C1Y C1B
+-L1W -C1W
+-L2Y -C2Y
+-L3B -C3B
+# boxes contain any one type of ball 
+C1Y C1W C1B
+C2Y C2W C2B
+C3Y C3W C3B
+# there cannot be two boxes whcih contais the same kind of ball
+-C1Y -C2Y
+-C1Y -C3Y
+-C1W -C2W
+-C1W -C3W
+-C1B -C2B
+-C1B -C3B
+# Add -C2W to KB to derive empty clause
+-C2W

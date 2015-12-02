@@ -1,0 +1,49 @@
+ Model: 
+{'a': None, 'c': None, 'b': None, 'e': None, 'd': None, 'g': None, 'f': None, 'i': None, 'h': None, 'k': None, 'j': None, 'm': None, 'l': None, 'o': None, 'n': None}
+Setting Pure Symbol:  e: False
+ Model: 
+{'a': None, 'c': None, 'b': None, 'e': False, 'd': None, 'g': None, 'f': None, 'i': None, 'h': None, 'k': None, 'j': None, 'm': None, 'l': None, 'o': None, 'n': None}
+Setting Pure Symbol:  f: False
+ Model: 
+{'a': None, 'c': None, 'b': None, 'e': False, 'd': None, 'g': None, 'f': False, 'i': None, 'h': None, 'k': None, 'j': None, 'm': None, 'l': None, 'o': None, 'n': None}
+Setting Pure Symbol:  i: False
+ Model: 
+{'a': None, 'c': None, 'b': None, 'e': False, 'd': None, 'g': None, 'f': False, 'i': False, 'h': None, 'k': None, 'j': None, 'm': None, 'l': None, 'o': None, 'n': None}
+Setting Pure Symbol:  j: False
+ Model: 
+{'a': None, 'c': None, 'b': None, 'e': False, 'd': None, 'g': None, 'f': False, 'i': False, 'h': None, 'k': None, 'j': False, 'm': None, 'l': None, 'o': None, 'n': None}
+Setting Pure Symbol:  m: False
+ Model: 
+{'a': None, 'c': None, 'b': None, 'e': False, 'd': None, 'g': None, 'f': False, 'i': False, 'h': None, 'k': None, 'j': False, 'm': False, 'l': None, 'o': None, 'n': None}
+Setting Pure Symbol:  d: True
+ Model: 
+{'a': None, 'c': None, 'b': None, 'e': False, 'd': True, 'g': None, 'f': False, 'i': False, 'h': None, 'k': None, 'j': False, 'm': False, 'l': None, 'o': None, 'n': None}
+Setting Pure Symbol:  h: False
+ Model: 
+{'a': None, 'c': None, 'b': None, 'e': False, 'd': True, 'g': None, 'f': False, 'i': False, 'h': False, 'k': None, 'j': False, 'm': False, 'l': None, 'o': None, 'n': None}
+Setting Pure Symbol:  a: True
+ Model: 
+{'a': True, 'c': None, 'b': None, 'e': False, 'd': True, 'g': None, 'f': False, 'i': False, 'h': False, 'k': None, 'j': False, 'm': False, 'l': None, 'o': None, 'n': None}
+Setting Pure Symbol:  b: True
+ Model: 
+{'a': True, 'c': None, 'b': True, 'e': False, 'd': True, 'g': None, 'f': False, 'i': False, 'h': False, 'k': None, 'j': False, 'm': False, 'l': None, 'o': None, 'n': None}
+Setting Pure Symbol:  g: False
+ Model: 
+{'a': True, 'c': None, 'b': True, 'e': False, 'd': True, 'g': False, 'f': False, 'i': False, 'h': False, 'k': None, 'j': False, 'm': False, 'l': None, 'o': None, 'n': None}
+Setting Pure Symbol:  n: False
+ Model: 
+{'a': True, 'c': None, 'b': True, 'e': False, 'd': True, 'g': False, 'f': False, 'i': False, 'h': False, 'k': None, 'j': False, 'm': False, 'l': None, 'o': None, 'n': False}
+Setting Pure Symbol:  k: True
+ Model: 
+{'a': True, 'c': None, 'b': True, 'e': False, 'd': True, 'g': False, 'f': False, 'i': False, 'h': False, 'k': True, 'j': False, 'm': False, 'l': None, 'o': None, 'n': False}
+Setting Pure Symbol:  c: True
+ Model: 
+{'a': True, 'c': True, 'b': True, 'e': False, 'd': True, 'g': False, 'f': False, 'i': False, 'h': False, 'k': True, 'j': False, 'm': False, 'l': None, 'o': None, 'n': False}
+1
+----------------- Assignenments--------------------- 
+a: True
+c: True
+b: True
+d: True
+k: True
+count: 14
